@@ -3,25 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
-
-    <fragment
-        android:id="@+id/nav_home"
-        android:name="colegio.app.cav.ui.home.HomeFragment"
-        android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
-
-    <fragment
-        android:id="@+id/nav_gallery"
-        android:name="colegio.app.cav.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
-
-    <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="colegio.app.cav.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+    app:startDestination="@+id/crudUsuario">
 
     <fragment
         android:id="@+id/crudUsuario"
@@ -34,6 +16,67 @@
         android:name="colegio.app.cav.admin.estadoCuenta"
         tools:layout="@layout/estado_cuenta_fragment"
         />
+
+    <fragment
+        android:id="@+id/mensajeObervaciones"
+        android:name="colegio.app.cav.admin.MsjyOb"
+        tools:layout="@layout/msjy_ob_fragment"
+        />
+
+    <fragment
+        android:id="@+id/TemaxSemana"
+        android:name="colegio.app.cav.admin.MsjyOb"
+        tools:layout="@layout/msjy_ob_fragment"
+        />
+
+    <fragment
+        android:id="@+id/CalendarioActividad"
+        android:name="colegio.app.cav.admin.MsjyOb"
+        tools:layout="@layout/msjy_ob_fragment"
+        />
+
+    <fragment
+        android:id="@+id/FeedNews"
+        android:name="colegio.app.cav.admin.MsjyOb"
+        tools:layout="@layout/msjy_ob_fragment"
+        />
+
+    <fragment
+        android:id="@+id/Calificaciones"
+        android:name="colegio.app.cav.admin.MsjyOb"
+        tools:layout="@layout/msjy_ob_fragment"
+        />
+
+    <fragment
+        android:id="@+id/Msjtutor"
+        android:name="colegio.app.cav.admin.MsjyOb"
+        tools:layout="@layout/msjy_ob_fragment"
+        />
+
+    <fragment
+        android:id="@+id/Horario"
+        android:name="colegio.app.cav.admin.MsjyOb"
+        tools:layout="@layout/msjy_ob_fragment"
+        />
+
+    <fragment
+        android:id="@+id/Citas"
+        android:name="colegio.app.cav.admin.MsjyOb"
+        tools:layout="@layout/msjy_ob_fragment"
+        />
+
+    <fragment
+        android:id="@+id/KidsAZ"
+        android:name="colegio.app.cav.admin.MsjyOb"
+        tools:layout="@layout/msjy_ob_fragment"
+        />
+
+    <fragment
+        android:id="@+id/Precio"
+        android:name="colegio.app.cav.admin.MsjyOb"
+        tools:layout="@layout/msjy_ob_fragment"
+        />
+
 
 
 </navigation>
