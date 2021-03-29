@@ -1,11 +1,10 @@
-package colegio.app.cav.ui.admin;
+package colegio.app.cav.admin;
 
 import androidx.lifecycle.ViewModelProvider;
 
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
