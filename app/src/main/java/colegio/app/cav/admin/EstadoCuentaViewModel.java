@@ -1,13 +1,13 @@
-package colegio.app.cav.ui.admin;
+package colegio.app.cav.admin;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class CrudUsuarioViewModel extends ViewModel {
+public class EstadoCuentaViewModel extends ViewModel {
     private MutableLiveData<String> mText;
 
-    public CrudUsuarioViewModel() {
+    public EstadoCuentaViewModel() {
         mText = new MutableLiveData<>();
         mText.setValue("This is Crud fragment");
     }
@@ -15,4 +15,5 @@ public class CrudUsuarioViewModel extends ViewModel {
     public LiveData<String> getText() {
         return mText;
     }
+    // TODO: Implement the ViewModel
 }

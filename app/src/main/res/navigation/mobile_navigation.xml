@@ -25,13 +25,13 @@
 
     <fragment
         android:id="@+id/crudUsuario"
-        android:name="colegio.app.cav.ui.admin.CrudUsuario"
+        android:name="colegio.app.cav.admin.CrudUsuario"
         tools:layout="@layout/crud_usuario_fragment"
         />
 
     <fragment
         android:id="@+id/estadoCuenta"
-        android:name="colegio.app.cav.ui.admin.estadoCuenta"
+        android:name="colegio.app.cav.admin.estadoCuenta"
         tools:layout="@layout/estado_cuenta_fragment"
         />
 

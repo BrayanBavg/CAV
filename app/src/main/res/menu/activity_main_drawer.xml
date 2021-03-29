@@ -16,6 +16,8 @@
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_slideshow" />
+
+
         <item
             android:id="@+id/crudUsuario"
             android:icon="@drawable/ic_launcher_foreground"
@@ -29,5 +31,53 @@
             android:id="@+id/mensajeObervaciones"
             android:icon="@color/design_default_color_on_primary"
             android:title="Mensajes y observaciones"/>
+
+        <item
+            android:id="@+id/TemaxSemana"
+            android:icon="@color/purple_500"
+            android:title="Tema por Semana/Mes"
+            />
+
+        <item
+            android:id="@+id/CalendarioActividad"
+            android:icon="@color/purple_500"
+            android:title="Calendario de Actividades"
+            />
+
+        <item
+            android:id="@+id/FeedNews"
+            android:icon="@color/design_default_color_on_primary"
+            android:title="Feed News"/>
+
+        <item
+            android:id="@+id/Calificaciones"
+            android:icon="@color/design_default_color_on_primary"
+            android:title="Calificaciones"/>
+
+        <item
+            android:id="@+id/Msjtutor"
+            android:icon="@color/design_default_color_on_primary"
+            android:title="Mensaje de Tutores"/>
+
+        <item
+            android:id="@+id/Horario"
+            android:icon="@color/design_default_color_on_primary"
+            android:title="Horario"/>
+
+        <item
+            android:id="@+id/Citas"
+            android:icon="@color/design_default_color_on_primary"
+            android:title="Citas"/>
+
+        <item
+            android:id="@+id/KidsAZ"
+            android:icon="@color/design_default_color_on_primary"
+            android:title="Kids A-Z"/>
+
+        <item
+            android:id="@+id/Precio"
+            android:icon="@color/design_default_color_on_primary"
+            android:title="Precio"/>
+
     </group>
 </menu>
