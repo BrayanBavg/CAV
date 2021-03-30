@@ -21,7 +21,7 @@ public class FeedNews extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         mFeedNewsViewModel = new ViewModelProvider(this).get(FeedNewsViewModel.class);
-        View root = inflater.inflate(R.layout.crud_usuario_fragment, container, false);
+        View root = inflater.inflate(R.layout.feed_news_fragment, container, false);
         /*final TextView textView = root.findViewById(R.id.text_home);
         mCrudViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override

@@ -3,7 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
-    <group android:checkableBehavior="single">
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/Administrador">
+
         <item
             android:id="@+id/crudUsuario"
             android:icon="@drawable/ic_launcher_foreground"
@@ -66,4 +69,142 @@
             android:title="Precio"/>
 
     </group>
+
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/Maestro">
+
+        <item
+            android:id="@+id/Observaciones"
+            android:icon="@color/purple_500"
+            android:title="Observaciones"/>
+
+        <item
+            android:id="@+id/MsjtutorMaestro"
+            android:icon="@color/black"
+            android:title="Mensaje"
+            />
+
+        <item
+            android:id="@+id/GTareas"
+            android:icon="@color/purple_500"
+            android:title="Tarea"/>
+
+        <item
+            android:id="@+id/MatApoyo"
+            android:icon="@color/purple_500"
+            android:title="Material de Apoyo"/>
+
+        <item
+            android:id="@+id/FeedNews2"
+            android:icon="@color/purple_500"
+            android:title="Feed News"/>
+
+        <item
+            android:id="@+id/KidsAZMaestro"
+            android:icon="@color/purple_500"
+            android:title="Kids A-Z"/>
+
+        <item
+            android:id="@+id/CalificacionesMaestro"
+            android:icon="@color/purple_500"
+            android:title="Calificaciones"/>
+
+        <item
+            android:id="@+id/Bitacora"
+            android:icon="@color/purple_500"
+            android:title="Bitacora"/>
+    </group>
+
+    <group
+        android:id="@+id/Tutor"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/ObservacionesTutor"
+            android:icon="@color/black"
+            android:title="Observaciones"
+            />
+        <item
+            android:id="@+id/EdoCuentaTutor"
+            android:icon="@color/black"
+            android:title="Estado de Cuenta"
+            />
+        <item
+            android:id="@+id/MensajesDirector"
+            android:icon="@color/black"
+            android:title="Mensajes"
+            />
+
+        <item
+            android:id="@+id/FeedNews3"
+            android:icon="@color/black"
+            android:title="Feed News"
+            />
+
+        <item
+            android:id="@+id/MaterialApoyoTutor"
+            android:icon="@color/black"
+            android:title="Material de Apoyo"
+            />
+
+        <item
+            android:id="@+id/CalificacionesTutor"
+            android:icon="@color/black"
+            android:title="Calificaciones"
+            />
+
+        <item
+            android:id="@+id/ProgramaXmesTutor"
+            android:icon="@color/black"
+            android:title="Programa por Mes"
+            />
+
+        <item
+            android:id="@+id/KidsAZTutor"
+            android:icon="@color/black"
+            android:title="Kids A-Z"
+            />
+
+
+    </group>
+
+
+    <group
+        android:id="@+id/Alumno"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/MatApoyoAlumno"
+            android:icon="@color/black"
+            android:title="Material de Apoyo"
+            />
+
+        <item
+            android:id="@+id/TareasAlumno"
+            android:icon="@color/black"
+            android:title="Tareas"
+            />
+
+        <item
+            android:id="@+id/ProgramaXmesAlumno"
+            android:icon="@color/black"
+            android:title="Programa por Mes"
+            />
+
+        <item
+            android:id="@+id/FeedNews4"
+            android:icon="@color/black"
+            android:title="Feed News"
+            />
+
+
+    </group>
+
+
+
+
+
+
+
 </menu>

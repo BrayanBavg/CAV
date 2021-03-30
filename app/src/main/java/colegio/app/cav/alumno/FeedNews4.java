@@ -1,4 +1,4 @@
-package colegio.app.cav.admin;
+package colegio.app.cav.alumno;
 
 import androidx.lifecycle.ViewModelProvider;
 
@@ -13,16 +13,16 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import colegio.app.cav.R;
+import colegio.app.cav.maestro.BitacoraViewModel;
 
-public class MsjyOb extends Fragment {
+public class FeedNews4 extends Fragment {
 
-    private MsjyObViewModel mMsjyObViewModel;
+    private FeedNews4ViewModel mFeedNews4ViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        mMsjyObViewModel =
-                new ViewModelProvider(this).get(MsjyObViewModel.class);
-        View root = inflater.inflate(R.layout.msjy_ob_fragment, container, false);
+        mFeedNews4ViewModel = new ViewModelProvider(this).get(FeedNews4ViewModel.class);
+        View root = inflater.inflate(R.layout.feed_news4_fragment, container, false);
         /*final TextView textView = root.findViewById(R.id.text_home);
         mCrudViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
