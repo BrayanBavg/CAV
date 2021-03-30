@@ -21,7 +21,7 @@ public class TemaxSemana extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         mTemaxSemanaViewModel = new ViewModelProvider(this).get(TemaxSemanaViewModel.class);
-        View root = inflater.inflate(R.layout.crud_usuario_fragment, container, false);
+        View root = inflater.inflate(R.layout.temax_semana_fragment, container, false);
         /*final TextView textView = root.findViewById(R.id.text_home);
         mCrudViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override

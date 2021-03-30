@@ -1,4 +1,4 @@
-package colegio.app.cav.admin;
+package colegio.app.cav.tutor;
 
 import androidx.lifecycle.ViewModelProvider;
 
@@ -13,16 +13,16 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import colegio.app.cav.R;
+import colegio.app.cav.maestro.BitacoraViewModel;
 
-public class MsjyOb extends Fragment {
+public class CalificacionTutor extends Fragment {
 
-    private MsjyObViewModel mMsjyObViewModel;
+    private CalificacionTutorViewModel mCalificacionTutorViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        mMsjyObViewModel =
-                new ViewModelProvider(this).get(MsjyObViewModel.class);
-        View root = inflater.inflate(R.layout.msjy_ob_fragment, container, false);
+        mCalificacionTutorViewModel = new ViewModelProvider(this).get(CalificacionTutorViewModel.class);
+        View root = inflater.inflate(R.layout.calificacion_tutor_fragment, container, false);
         /*final TextView textView = root.findViewById(R.id.text_home);
         mCrudViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override

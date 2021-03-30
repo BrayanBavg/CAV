@@ -39,8 +39,17 @@ public class MainActivity extends AppCompatActivity {
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.crudUsuario, R.id.estadoCuenta, R.id.CalendarioActividad, R.id.Calificaciones, R.id.Citas,
-                R.id.FeedNews, R.id.KidsAZ, R.id.Horario, R.id.Precio, R.id.TemaxSemana, R.id.mensajeObervaciones, R.id.Msjtutor)
+                //Admin
+                R.id.crudUsuario, R.id.estadoCuenta, R.id.mensajeObervaciones, R.id.TemaxSemana, R.id.CalendarioActividad, R.id.FeedNews, R.id.Calificaciones,
+                R.id.Msjtutor, R.id.Horario, R.id.Citas, R.id.KidsAZ,  R.id.Precio,
+                //Maestro
+                R.id.Observaciones, R.id.MsjtutorMaestro, R.id.GTareas, R.id.MatApoyo, R.id.FeedNews2, R.id.KidsAZMaestro, R.id.CalificacionesMaestro, R.id.Bitacora,
+                //Tutor
+                R.id.ObservacionesTutor, R.id.EdoCuentaTutor, R.id.MensajesDirector, R.id.FeedNews3, R.id.MaterialApoyoTutor, R.id.CalificacionesTutor,
+                R.id.ProgramaXmesTutor, R.id.KidsAZTutor,
+                //Alumno
+                R.id.MatApoyoAlumno, R.id.TareasAlumno, R.id.ProgramaXmesAlumno, R.id.FeedNews4)
+
                 .setDrawerLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);

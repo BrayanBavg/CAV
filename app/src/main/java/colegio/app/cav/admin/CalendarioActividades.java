@@ -21,7 +21,7 @@ public class CalendarioActividades extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         mCalendarioActividadesViewModel = new ViewModelProvider(this).get(CalendarioActividadesViewModel.class);
-        View root = inflater.inflate(R.layout.crud_usuario_fragment, container, false);
+        View root = inflater.inflate(R.layout.calendario_actividades_fragment, container, false);
         /*final TextView textView = root.findViewById(R.id.text_home);
         mCrudViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override

@@ -77,6 +77,129 @@
         tools:layout="@layout/msjy_ob_fragment"
         />
 
+    <fragment
+        android:id="@+id/Observaciones"
+        android:name="colegio.app.cav.maestro.Observaciones"
+        tools:layout="@layout/observaciones_fragment"
+        />
+
+    <fragment
+        android:id="@+id/MsjtutorMaestro"
+        android:name="colegio.app.cav.maestro.MsjTutorMaestro"
+        tools:layout="@layout/msj_tutor_maestro_fragment"
+        />
+
+    <fragment
+        android:id="@+id/GTareas"
+        android:name="colegio.app.cav.maestro.GTareas"
+        tools:layout="@layout/g_tareas_fragment"
+        />
+
+    <fragment
+        android:id="@+id/MatApoyo"
+        android:name="colegio.app.cav.maestro.MatApoyo"
+        tools:layout="@layout/mat_apoyo_fragment"
+        />
+
+    <fragment
+        android:id="@+id/FeedNews2"
+        android:name="colegio.app.cav.maestro.FeedNews2"
+        tools:layout="@layout/feed_news2_fragment"
+        />
+
+    <fragment
+        android:id="@+id/KidsAZMaestro"
+        android:name="colegio.app.cav.maestro.KidsAZMaestro"
+        tools:layout="@layout/kids_a_z_maestro_fragment"
+        />
+
+    <fragment
+        android:id="@+id/CalificacionesMaestro"
+        android:name="colegio.app.cav.maestro.CalificacionMaestro"
+        tools:layout="@layout/calificacion_maestro_fragment"
+        />
+
+    <fragment
+        android:id="@+id/Bitacora"
+        android:name="colegio.app.cav.maestro.Bitacora"
+        tools:layout="@layout/bitacora_fragment"
+        />
+
+    <fragment
+        android:id="@+id/ObservacionesTutor"
+        android:name="colegio.app.cav.tutor.ObservacionesTutor"
+        tools:layout="@layout/observaciones_tutor_fragment"
+        />
+
+    <fragment
+        android:id="@+id/EdoCuentaTutor"
+        android:name="colegio.app.cav.tutor.EdoCuentaTutor"
+        tools:layout="@layout/edo_cuenta_tutor_fragment"
+        />
+
+    <fragment
+        android:id="@+id/MensajesDirector"
+        android:name="colegio.app.cav.tutor.MsjDirector"
+        tools:layout="@layout/msj_director_fragment"
+        />
+
+    <fragment
+        android:id="@+id/FeedNews3"
+        android:name="colegio.app.cav.tutor.FeedNews3"
+        tools:layout="@layout/feed_news3_fragment"
+        />
+
+    <fragment
+        android:id="@+id/MaterialApoyoTutor"
+        android:name="colegio.app.cav.tutor.MatApoyoTutor"
+        tools:layout="@layout/mat_apoyo_tutor_fragment"
+        />
+
+    <fragment
+        android:id="@+id/CalificacionesTutor"
+        android:name="colegio.app.cav.tutor.CalificacionTutor"
+        tools:layout="@layout/calificacion_tutor_fragment"
+        />
+
+    <fragment
+        android:id="@+id/ProgramaXmesTutor"
+        android:name="colegio.app.cav.tutor.ProgramaXSemanaTutor"
+        tools:layout="@layout/programa_x_semana_tutor_fragment"
+        />
+
+    <fragment
+        android:id="@+id/KidsAZTutor"
+        android:name="colegio.app.cav.tutor.KidsAZTutor"
+        tools:layout="@layout/kids_a_z_tutor_fragment"
+        />
+
+    <fragment
+        android:id="@+id/MatApoyoAlumno"
+        android:name="colegio.app.cav.alumno.MatApoyoAlumno"
+        tools:layout="@layout/mat_apoyo_alumno_fragment"
+        />
+
+    <fragment
+        android:id="@+id/TareasAlumno"
+        android:name="colegio.app.cav.alumno.TareasAlumno"
+        tools:layout="@layout/tareas_alumno_fragment"
+        />
+
+    <fragment
+        android:id="@+id/ProgramaXmesAlumno"
+        android:name="colegio.app.cav.alumno.ProgramaXMes"
+        tools:layout="@layout/programa_x_mes_fragment"
+        />
+
+    <fragment
+        android:id="@+id/FeedNews4"
+        android:name="colegio.app.cav.alumno.FeedNews4"
+        tools:layout="@layout/feed_news4_fragment"
+        />
+
+
+
+
 
 
 </navigation>
