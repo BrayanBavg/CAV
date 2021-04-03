@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home.Preparatoria">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blanco"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                app:srcCompat="@drawable/logofondochido" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/fondo_prime_education"
+                android:fontFamily="cursive"
+                android:justificationMode="inter_word"
+                android:text="Preparatoria Bilingüe"
+                android:textAlignment="center"
+                android:textColor="@color/dorado"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nPromovemos que los jóvenes dominen el idioma inglés como una base importante"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nTres datos"
+                android:textAlignment="center"
+                android:textColor="@color/dorado"
+                android:textSize="36dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="que muestran su valor:\n"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="30dp" />
+
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Entre el 87 y 97 por ciento de la informacion cientifíca y académica esta en inglés.\nUno de cada dos puestos con ingresos superiores a $50,000 pesos mensuales requiere inglés.\n7 de cada 10 compañías en expanción requieren personal con inglés.\n"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="26dp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/franja_dorada"
+                android:text="Bachillerato General con las especialidades:"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="26dp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/abajo_franja"
+                android:text="Laboratorio Clínico\nAdministración\nInformática"
+                android:textAlignment="textStart"
+                android:textColor="@color/blanco"
+                android:textSize="26dp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nContamos con salones de clases"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="36dp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:text="Especializados."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nMientras estudian su Bachillerato los jovenes podrán incubar sus negocios en la incubadora del colegio, con asesoría profesional y tomar experiencia de empresas reales, para aumentar las probabilidades de exito en sus emprendimientos."
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="26dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

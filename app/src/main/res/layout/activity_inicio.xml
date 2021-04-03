@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home.Inicio">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="70dp"
+        android:background="@color/blanco"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                app:srcCompat="@drawable/logofondochido" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/blanco"
+                android:fontFamily="@font/actor"
+                android:justificationMode="inter_word"
+                android:text="\nMisión\n"
+                android:textAlignment="center"
+                android:textColor="@color/rojo"
+                android:textSize="32dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/blanco"
+                android:backgroundTint="@color/blanco"
+                android:fontFamily="cursive"
+                android:text="Educar a Profesionales Prosperos"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="32dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/blanco"
+                android:src="@drawable/icono" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/actor"
+                android:text="Nuestro Modelo Educativo funciona por que esta basado en\n"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="cursive"
+                android:text="La honestidad y disciplina\n"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="38dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/actor"
+                android:text="Tanto para quienes pertenecemos a la institución, como colaboradores, como para los alumnos\n"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+
+            //Aqui ira un contenedor con forma
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/azul"
+                android:fontFamily="@font/actor"
+                android:text="Nosotros ponemos el ejemplo"
+                android:textAlignment="center"
+                android:textColor="@color/blanco"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/azul"
+                android:fontFamily="cursive"
+                android:text="Prime Education"
+                android:textAlignment="center"
+                android:textColor="@color/dorado"
+                android:textSize="40dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/azul"
+                android:fontFamily="@font/actor"
+                android:text="Es un concepto que hace referencia a la calidad de la educacion impartida en nuestra institución, cumplicmos con los mas alatos estandares de calidad educatica en todos los niveles del colegio.
+\nBrindamos educacion exclusiva, dominio de varios idiomas y mentalidad emprendedora"
+                android:textAlignment="center"
+                android:textColor="@color/blanco"
+                android:textSize="20dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/actor"
+                android:text="\n"
+                android:textAlignment="center"
+                android:textColor="@color/blanco"
+                android:textSize="20dp"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="386dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/dorado"
+                android:fontFamily="cursive"
+                android:text="Cupón"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </ScrollView>
+
+    //Información
+    <LinearLayout
+        android:layout_width="407dp"
+        android:layout_height="65dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView1">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF">
+
+                <TextView
+                    android:id="@+id/Oferta"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/azul"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center|center_horizontal|center_vertical"
+                    android:text="Información"
+                    android:textColor="@color/blanco"
+                    android:textSize="32dp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

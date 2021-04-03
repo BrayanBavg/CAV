@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home.Preescolar">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blanco"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                app:srcCompat="@drawable/logofondochido" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/fondo_prime_education"
+                android:fontFamily="cursive"
+                android:justificationMode="inter_word"
+                android:text="Preescolar Bilingüe"
+                android:textAlignment="center"
+                android:textColor="@color/dorado"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hay tres cosas que tú hijo o hija logrará:\n"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="36dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.- Dominar el inlgés Garantizado\n2.- Recibir una eduación exclusiva personalizada\n3.- Mentes emprendedoras son los que formamos dentro del colegio(Smart kids; Smart-Can Do)"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="27dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sus hijos son tratados"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="36dp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:text="con Amor"
+                android:textAlignment="center"
+                android:textColor="@color/rojo"
+                android:textSize="42dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="en un ambiente seguro."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="36dp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="English All The Time"
+                android:textAlignment="center"
+                android:textColor="@color/dorado"
+                android:textSize="36dp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hay una gran diferencia entre tomar un curso de inglés y llevar su eduación en inglés.\nMientras los primeros aprenden lo básico, los segundos realmente dominan el idioma."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="26dp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/franja_dorada"
+                android:text="Desarrollo de habilidades:"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="26dp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="384dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/abajo_franja"
+                android:text='Piano a niños de 3 a 5 años de edad.\nIntegración Sensorial\nMatemáticas con método "Singapore Math"'
+                android:textAlignment="textStart"
+                android:textColor="@color/blanco"
+                android:textSize="26dp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
