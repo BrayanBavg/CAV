@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home.Secundaria">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blanco"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                app:srcCompat="@drawable/logofondochido" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/fondo_prime_education"
+                android:fontFamily="cursive"
+                android:justificationMode="inter_word"
+                android:text="Secundaria Bilingüe"
+                android:textAlignment="center"
+                android:textColor="@color/dorado"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+            //se puede poner mas estilos con el bold|italic
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Los Maestros y Sistemas Educativos adecuados para  acompañar a los alumnos en esta edad de transición.\n"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/franja_dorada"
+                android:text="Participacion activa de los alumnos en sus aprendizajes"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="26dp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/abajo_franja"
+                android:text='Exposiciones.\nDebates academicas.\nVisitas a empresas.\nEntre otras actividades que fomentan sus iniciativas'
+                android:textAlignment="textStart"
+                android:textColor="@color/blanco"
+                android:textSize="26dp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text='\nEn el colegio seguimos un programa de coaching "Smart Can-Do" con el fin de apoyar a los docentes en la toma de decisiones y principos de inteligencia emocional.\n'
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="26dp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/franja_azulnormal"
+                android:text='Incorporamos los libros de texto de ciencias naturales(biología, física y química) y ciencias sociales(geografía e historia) en inglés para incrementar su vocabulario.\nRealmente todas las condiciones para el aprendizaje del idioma'
+                android:textAlignment="textStart"
+                android:textColor="@color/blanco"
+                android:textSize="26dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

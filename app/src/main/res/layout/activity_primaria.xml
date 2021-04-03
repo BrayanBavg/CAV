@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home.Primaria">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blanco"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                app:srcCompat="@drawable/logofondochido" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/fondo_prime_education"
+                android:fontFamily="cursive"
+                android:justificationMode="inter_word"
+                android:text="Primaria Bilingüe"
+                android:textAlignment="center"
+                android:textColor="@color/dorado"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nLa iniciativa de los niños y el inglés son dos aspectos que nos distinguen:\n\n¿Por qué logramos que los niños hablen inglés?"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n1.- El 100% de la plantilla docente habla inglés.\n2.- Todas las clases son en inglés con una clase de español.\n3.-Todos los textos son en inglés.\n4.-Los métodos que usamos son efectivos."
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nEducar para el 2030.\n"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:fontFamily="cursive"
+                android:textColor="@color/dorado"
+                android:textSize="40dp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Los niños deben ser educados estimulando su iniciativa, donde se sienten motivados y aprendan a tomar decisiones, con lo cual serán personas y profesionales exitosos.\n"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="26dp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text='En el colegio el primer valor central es "La seguridad primero", el bullying y mal comportmiento son inaceptables\n'
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="26dp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/franja_dorada"
+                android:text="Los alumnos serás capaces de adaptarse a cambios tecnológicos:"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="26dp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/abajo_franja"
+                android:text='Aprenden a usar tecnología educativamente.\nDesarrollos de habilidades digitales.\nUso de plataforma Google for Education en alumnos de Cuarto a Sexto grado.'
+                android:textAlignment="textStart"
+                android:textColor="@color/blanco"
+                android:textSize="26dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
