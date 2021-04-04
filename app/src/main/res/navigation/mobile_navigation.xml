@@ -25,56 +25,56 @@
 
     <fragment
         android:id="@+id/TemaxSemana"
-        android:name="colegio.app.cav.admin.MsjyOb"
-        tools:layout="@layout/msjy_ob_fragment"
+        android:name="colegio.app.cav.admin.TemaxSemana"
+        tools:layout="@layout/temax_semana_fragment"
         />
 
     <fragment
         android:id="@+id/CalendarioActividad"
-        android:name="colegio.app.cav.admin.MsjyOb"
-        tools:layout="@layout/msjy_ob_fragment"
+        android:name="colegio.app.cav.admin.CalendarioActividades"
+        tools:layout="@layout/calendario_actividades_fragment"
         />
 
     <fragment
         android:id="@+id/FeedNews"
-        android:name="colegio.app.cav.admin.MsjyOb"
-        tools:layout="@layout/msjy_ob_fragment"
+        android:name="colegio.app.cav.admin.FeedNews"
+        tools:layout="@layout/feed_news_fragment"
         />
 
     <fragment
         android:id="@+id/Calificaciones"
-        android:name="colegio.app.cav.admin.MsjyOb"
-        tools:layout="@layout/msjy_ob_fragment"
+        android:name="colegio.app.cav.admin.Calificacion"
+        tools:layout="@layout/calificacion_fragment"
         />
 
     <fragment
         android:id="@+id/Msjtutor"
-        android:name="colegio.app.cav.admin.MsjyOb"
-        tools:layout="@layout/msjy_ob_fragment"
+        android:name="colegio.app.cav.admin.Msjtutor"
+        tools:layout="@layout/msj_tutor_maestro_fragment"
         />
 
     <fragment
         android:id="@+id/Horario"
-        android:name="colegio.app.cav.admin.MsjyOb"
-        tools:layout="@layout/msjy_ob_fragment"
+        android:name="colegio.app.cav.admin.Horario"
+        tools:layout="@layout/horario_fragment"
         />
 
     <fragment
         android:id="@+id/Citas"
-        android:name="colegio.app.cav.admin.MsjyOb"
-        tools:layout="@layout/msjy_ob_fragment"
+        android:name="colegio.app.cav.admin.Citas"
+        tools:layout="@layout/citas_fragment"
         />
 
     <fragment
         android:id="@+id/KidsAZ"
-        android:name="colegio.app.cav.admin.MsjyOb"
-        tools:layout="@layout/msjy_ob_fragment"
+        android:name="colegio.app.cav.admin.KidAZ"
+        tools:layout="@layout/kid_a_z_fragment"
         />
 
     <fragment
         android:id="@+id/Precio"
-        android:name="colegio.app.cav.admin.MsjyOb"
-        tools:layout="@layout/msjy_ob_fragment"
+        android:name="colegio.app.cav.admin.Precio"
+        tools:layout="@layout/precio_fragment"
         />
 
     <fragment
