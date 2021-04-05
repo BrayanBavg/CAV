@@ -196,5 +196,10 @@
         android:name="colegio.app.cav.alumno.FeedNews4"
         tools:layout="@layout/feed_news4_fragment"
         />
+    <fragment
+        android:id="@+id/CitasDisponibilidad"
+        android:name="colegio.app.cav.admin.CitasDiponibilidad"
+        tools:layout="@layout/citas_diponibilidad_fragment"
+        />
 
 </navigation>
