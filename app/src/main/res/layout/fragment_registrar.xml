@@ -56,7 +56,8 @@
                 android:background="@color/dorado"
                 android:clickable="true"
                 android:text="Registrar"
-                android:textColor="@color/blanco" />
+                android:textColor="@color/blanco"
+                android:focusable="true" />
 
         </LinearLayout>
 
