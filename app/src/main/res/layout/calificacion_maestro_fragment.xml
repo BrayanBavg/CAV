@@ -23,6 +23,35 @@
                 android:layout_height="80dp"
                 app:srcCompat="@drawable/logofondochido"/>
 
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="198dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="221dp"
+                android:src="@android:drawable/divider_horizontal_dark" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="127dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="Subir" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="127dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:text="Guardar" />
+
         </LinearLayout>
 
     </ScrollView>
