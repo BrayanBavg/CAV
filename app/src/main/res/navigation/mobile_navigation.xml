@@ -197,9 +197,4 @@
         tools:layout="@layout/feed_news4_fragment"
         />
 
-
-
-
-
-
 </navigation>

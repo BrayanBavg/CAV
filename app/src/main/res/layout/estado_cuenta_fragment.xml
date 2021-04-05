@@ -74,6 +74,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:hint="Adeudo"
+                        android:inputType="number"
                         android:textAlignment="center"/>
 
                 </RelativeLayout>
@@ -105,6 +106,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:hint="Adeudo"
+                        android:inputType="number"
                         android:textAlignment="center"/>
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -136,6 +138,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:hint="Adeudo"
+                        android:inputType="number"
                         android:textAlignment="center"/>
 
                 </RelativeLayout>
@@ -181,6 +184,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:hint="Adeudo"
+                        android:inputType="number"
                         android:textAlignment="center"/>
 
                 </RelativeLayout>
@@ -212,6 +216,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:hint="Adeudo"
+                        android:inputType="number"
                         android:textAlignment="center"/>
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -243,6 +248,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:hint="Adeudo"
+                        android:inputType="number"
                         android:textAlignment="center"/>
 
                 </RelativeLayout>
@@ -288,6 +294,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:hint="Adeudo"
+                        android:inputType="number"
                         android:textAlignment="center"/>
 
                 </RelativeLayout>
@@ -319,6 +326,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:hint="Adeudo"
+                        android:inputType="number"
                         android:textAlignment="center"/>
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -350,6 +358,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:hint="Adeudo"
+                        android:inputType="number"
                         android:textAlignment="center"/>
 
                 </RelativeLayout>
@@ -395,6 +404,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:hint="Adeudo"
+                        android:inputType="number"
                         android:textAlignment="center"/>
 
                 </RelativeLayout>
@@ -426,6 +436,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:hint="Adeudo"
+                        android:inputType="number"
                         android:textAlignment="center"/>
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -456,8 +467,13 @@
                     <EditText
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginEnd="0dp"
+                        android:layout_marginBottom="0dp"
                         android:hint="Adeudo"
-                        android:textAlignment="center"/>
+                        android:inputType="number"
+                        android:textAlignment="center" />
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
