@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".Home.Registrar">
 
-    <!-- TODO: Update blank fragment layout -->
     <ScrollView
         android:id="@+id/scrollView3"
         android:layout_width="match_parent"
@@ -37,6 +36,7 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="E-mail"
+                android:textColor="@color/black"
                 android:inputType="textEmailAddress"
                 android:textColorHint="@color/azul" />
 
@@ -45,6 +45,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:textColor="@color/black"
                 android:hint="Contraseña"
                 android:inputType="textPassword"
                 android:textColorHint="@color/azul" />

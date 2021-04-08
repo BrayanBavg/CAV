@@ -29,10 +29,6 @@
                 android:background="@color/blanco"
                 android:src="@drawable/icono" />
 
-            <ListView
-                android:layout_width="match_parent"
-                android:layout_height="104dp" />
-
             <androidx.recyclerview.widget.RecyclerView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" >

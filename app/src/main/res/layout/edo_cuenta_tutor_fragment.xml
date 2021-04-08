@@ -74,6 +74,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:hint="Adeudo"
+                        android:textColorHint="@color/black"
+                        android:textColor="@color/black"
                         android:inputType="number"
                         android:textAlignment="center"/>
 
@@ -106,6 +108,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:hint="Adeudo"
+                        android:textColorHint="@color/black"
+                        android:textColor="@color/black"
                         android:inputType="number"
                         android:textAlignment="center"/>
                 </RelativeLayout>
@@ -138,6 +142,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:hint="Adeudo"
+                        android:textColorHint="@color/black"
+                        android:textColor="@color/black"
                         android:inputType="number"
                         android:textAlignment="center"/>
 
@@ -184,6 +190,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:hint="Adeudo"
+                        android:textColorHint="@color/black"
+                        android:textColor="@color/black"
                         android:inputType="number"
                         android:textAlignment="center"/>
 
@@ -216,6 +224,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:hint="Adeudo"
+                        android:textColorHint="@color/black"
+                        android:textColor="@color/black"
                         android:inputType="number"
                         android:textAlignment="center"/>
                 </RelativeLayout>
@@ -248,6 +258,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:hint="Adeudo"
+                        android:textColorHint="@color/black"
+                        android:textColor="@color/black"
                         android:inputType="number"
                         android:textAlignment="center"/>
 
@@ -294,6 +306,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:hint="Adeudo"
+                        android:textColorHint="@color/black"
+                        android:textColor="@color/black"
                         android:inputType="number"
                         android:textAlignment="center"/>
 
@@ -326,6 +340,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:hint="Adeudo"
+                        android:textColorHint="@color/black"
+                        android:textColor="@color/black"
                         android:inputType="number"
                         android:textAlignment="center"/>
                 </RelativeLayout>
@@ -358,6 +374,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:hint="Adeudo"
+                        android:textColorHint="@color/black"
+                        android:textColor="@color/black"
                         android:inputType="number"
                         android:textAlignment="center"/>
 
@@ -404,6 +422,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:hint="Adeudo"
+                        android:textColorHint="@color/black"
+                        android:textColor="@color/black"
                         android:inputType="number"
                         android:textAlignment="center"/>
 
@@ -436,6 +456,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:hint="Adeudo"
+                        android:textColorHint="@color/black"
+                        android:textColor="@color/black"
                         android:inputType="number"
                         android:textAlignment="center"/>
                 </RelativeLayout>
@@ -467,9 +489,15 @@
                     <EditText
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginEnd="0dp"
+                        android:layout_marginBottom="0dp"
                         android:hint="Adeudo"
+                        android:textColorHint="@color/black"
+                        android:textColor="@color/black"
                         android:inputType="number"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center" />
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
