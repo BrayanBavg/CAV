@@ -4,13 +4,16 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/icono"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/icono"
         android:supportsRtl="true"
         android:theme="@style/Theme.CAV">
-        <activity android:name=".Home.LoginUsuario"
+        <activity android:name=".Home.Registrar"
             android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity
+            android:name=".Home.LoginUsuario"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name=".Home.Preparatoria"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
@@ -28,17 +31,17 @@
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name=".Home.Inicio"
-            android:theme="@style/Theme.AppCompat.NoActionBar" />
-        <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.CAV.NoActionBar">
+            android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.CAV.NoActionBar"/>
 
         <meta-data
             android:name="preloaded_fonts"

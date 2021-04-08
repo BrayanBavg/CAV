@@ -36,28 +36,28 @@
                 android:ems="10"
                 android:hint="Asunto"
                 android:inputType="textPersonName"
+                android:text=""
                 android:textColor="@color/black"
-                android:textColorHint="@color/black"
-                android:text="" />
+                android:textColorHint="@color/black" />
 
             <EditText
                 android:id="@+id/editTextTextMultiLine"
                 android:layout_width="match_parent"
-                android:layout_marginTop="10dp"
                 android:layout_height="204dp"
+                android:layout_marginTop="10dp"
                 android:ems="10"
                 android:gravity="start|top"
                 android:inputType="textMultiLine" />
 
             <Button
                 android:id="@+id/btnEnviarTarea"
-                android:layout_marginTop="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="10dp"
                 android:background="@color/dorado"
                 android:fontFamily="cursive"
                 android:text="Enviar"
-                android:layout_gravity="end"
                 android:textSize="20dp"
                 android:textStyle="bold" />
 

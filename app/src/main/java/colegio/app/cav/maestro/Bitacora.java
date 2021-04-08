@@ -32,5 +32,4 @@ public class Bitacora extends Fragment {
         */
         return root;
     }
-
 }

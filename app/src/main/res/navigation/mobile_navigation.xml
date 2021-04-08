@@ -145,8 +145,8 @@
 
     <fragment
         android:id="@+id/FeedNews3"
-        android:name="colegio.app.cav.tutor.FeedNews3"
-        tools:layout="@layout/feed_news3_fragment"
+        android:name="colegio.app.cav.maestro.FeedNews2"
+        tools:layout="@layout/feed_news2_fragment"
         />
 
     <fragment
@@ -193,8 +193,8 @@
 
     <fragment
         android:id="@+id/FeedNews4"
-        android:name="colegio.app.cav.alumno.FeedNews4"
-        tools:layout="@layout/feed_news4_fragment"
+        android:name="colegio.app.cav.maestro.FeedNews2"
+        tools:layout="@layout/feed_news2_fragment"
         />
     <fragment
         android:id="@+id/CitasDisponibilidad"
