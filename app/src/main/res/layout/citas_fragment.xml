@@ -23,6 +23,19 @@
                 android:layout_height="80dp"
                 app:srcCompat="@drawable/logofondochido"/>
 
+            <Spinner
+                android:id="@+id/filtroDias"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/listHorarios"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
         </LinearLayout>
 
     </ScrollView>

@@ -35,6 +35,16 @@
                 tools:ignore="MissingConstraints" />
             //Primer menú
 
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/azul"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:text="Separa tu lugar" />
+
             <LinearLayout
                 android:id="@+id/linearLayout2"
                 android:layout_width="match_parent"
@@ -215,12 +225,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_margin="10dp"
+                    android:backgroundTint="@color/blanco"
                     android:layout_weight="1">
 
                     <RelativeLayout
-                        android:layout_width="wrap_content"
+                        android:layout_width="221dp"
                         android:layout_height="match_parent"
                         android:background="@color/blanco"
+                        android:layout_gravity="center"
                         android:clickable="false">
 
                         <ImageView

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/blanco"
+    tools:context=".admin.Crud_Maestro">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blanco"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:src="@drawable/logofondochido" />
+
+            <EditText
+                android:id="@+id/txtNombreMaestro"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nombre"
+                android:textColorHint="@color/black"
+                android:text=""
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/txtApeMaestroPat"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Apellido Paterno"
+                android:textColorHint="@color/black"
+                android:text=""
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/txtApeMaestroMat"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Apellido Materno"
+                android:textColorHint="@color/black"
+                android:text=""
+                android:textColor="@color/black"/>
+
+            <Spinner
+                android:id="@+id/areaMaestro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <EditText
+                android:id="@+id/txtTelefonoMaestro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:ems="10"
+                android:hint="Teléfono"
+                android:textColorHint="@color/black"
+                android:text=""
+                android:textColor="@color/black"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/txtCorreoMaestro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:ems="10"
+                android:hint="Correo Electrónico"
+                android:textColorHint="@color/black"
+                android:text=""
+                android:textColor="@color/black"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/txtRfcMaestro"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="RFC"
+                android:textColorHint="@color/black"
+                android:text=""
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/txtCurpMaestro"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="CURP"
+                android:textColorHint="@color/black"
+                android:text=""
+                android:textColor="@color/black"/>
+
+            <Button
+                android:id="@+id/btnMaestroOK"
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/dorado"
+                android:text="Guardar"
+                android:textColor="@color/blanco" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
