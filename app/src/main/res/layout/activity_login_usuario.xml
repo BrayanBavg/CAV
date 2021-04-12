@@ -58,7 +58,7 @@
                 android:layout_width="172dp"
                 android:layout_height="wrap_content"
                 android:background="@color/dorado"
-                android:clickable="false"
+                android:clickable="true"
                 android:text="Ingresar"
                 android:textColor="@color/blanco" />
 

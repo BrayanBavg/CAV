@@ -9,8 +9,10 @@
         android:roundIcon="@drawable/icono"
         android:supportsRtl="true"
         android:theme="@style/Theme.CAV">
-        <activity android:name=".Home.Registrar"
-            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".Home.Citas"></activity>
+        <activity
+            android:name=".Home.Registrar"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name=".Home.LoginUsuario"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
@@ -41,7 +43,7 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/Theme.CAV.NoActionBar"/>
+            android:theme="@style/Theme.CAV.NoActionBar" />
 
         <meta-data
             android:name="preloaded_fonts"

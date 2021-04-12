@@ -55,7 +55,6 @@ public class MainActivity extends AppCompatActivity {
                 R.id.ProgramaXmesTutor, R.id.KidsAZTutor,
                 //Alumno
                 R.id.MatApoyoAlumno, R.id.TareasAlumno, R.id.ProgramaXmesAlumno, R.id.FeedNews4)
-
                 .setDrawerLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
