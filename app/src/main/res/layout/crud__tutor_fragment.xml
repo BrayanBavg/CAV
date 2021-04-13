@@ -28,6 +28,13 @@
                 android:layout_height="80dp"
                 android:src="@drawable/logofondochido" />
 
+            <ImageView
+                android:id="@+id/imageTutor"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:src="@tools:sample/avatars"/>
+
             <EditText
                 android:id="@+id/txtNombreTutor"
                 android:layout_marginLeft="5dp"
